@@ -81,14 +81,22 @@ img {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	min-width: 340px;
-	transition-duration: 0.4s;
-	color: black;
 	background: hsla(0,0%,100%,.95);
-	border: white;
+	border: none;
+	color: #000000;
+	display: inline-block;
+	min-width: 260px;
+	padding: 15px 10px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.25;
+	transition: all .25s ease-in;
 }
 
 .billede-knap:hover {
-	color: white;
-	background-color: white;
+	color: #86B87D;
 }
