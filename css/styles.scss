@@ -46,3 +46,23 @@ img {
 	color: #86B87D;
 	font-weight: bold;
 }
+
+.container1{
+
+}
+
+.bgbillede{
+	padding-top: 50px;
+	background-image: url("../images/WEBPAGE_CAROUSEL_COFFEE_SUB-1600x600.jpg"); /* The image used */
+	height: 500px;
+	width: 100%;
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.tflogo{
+	height: 200px;
+	width: 200px;
+	margin: 0 auto;
+}
