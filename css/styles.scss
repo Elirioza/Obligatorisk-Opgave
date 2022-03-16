@@ -99,6 +99,7 @@ img {
 	font-weight: 600;
 	line-height: 1.25;
 	transition: all .25s ease-in;
+	font-family: "Nunito Sans", sans-serif;
 }
 
 .billede-knap:hover {
@@ -109,4 +110,32 @@ img {
 	text-align: center;
 	font-weight: bolder;
 }
+
+@media screen and (max-width: 390px) {
+	.billede-knap {
+		min-width: 100px;
+		padding: 10px 5px;
+	}
+
+	.container {
+		max-width: 390px;
+	}
+
+	.navbar-brand {
+		width: 65px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.billede-knap {
+		min-width: 100px;
+		padding: 10px 5px;
+	}
+
+	.container {
+		max-width: 768px;
+	}
+}
+
+
 
