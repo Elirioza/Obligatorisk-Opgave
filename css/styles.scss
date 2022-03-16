@@ -81,7 +81,11 @@ img {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	min-width: 340px;
 	transition-duration: 0.4s;
+	color: black;
+	background: hsla(0,0%,100%,.95);
+	border: white;
 }
 
 .billede-knap:hover {
