@@ -46,3 +46,16 @@ img {
 	color: #86B87D;
 	font-weight: bold;
 }
+
+.billede-knap {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition-duration: 0.4s;
+}
+
+.billede-knap:hover {
+	color: white;
+	background-color: white;
+}
