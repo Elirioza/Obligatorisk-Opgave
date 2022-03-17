@@ -132,6 +132,27 @@ img {
 	.navbar-logo {
 		width: 65px;
 	}
+
+	.card-group {
+		padding-top: 16px !important;
+		padding-bottom: 16px !important;
+	}
+
+	.footer-container {
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+	}
+
+	.footer-section {
+		margin-bottom: 0 !important;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.card-midt {
+		padding-left: 24px;
+		padding-right: 24px;
+	}
 }
 
 @media screen and (max-width: 768px) {
